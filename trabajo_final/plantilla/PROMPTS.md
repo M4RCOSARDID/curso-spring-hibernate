@@ -1,86 +1,71 @@
 # Registro de Prompts - Trabajo Final‌‌‌​‌​‌‌​﻿‍‍​﻿​​​﻿‍‌​﻿‌‌​﻿‌​‌‍‌‌‌‍‌‍‌‍​﻿‌‍​‌‌‍​‌​﻿‌﻿‌‍‌​‌‍‌‌‌‍‌‍​﻿​‌‌‍​‌‌‍‌‌
 
-**Alumno:** [Tu Nombre Apellido]
-**Fecha:** [DD/MM/YYYY]
-**IA utilizada:** [ChatGPT / Claude / Copilot / Gemini / otra]
+**Alumno:** [MARCOS ARDID]
+**Fecha:** [19/03/2026]
+**IA utilizada:** [GEMINI]
 
 ---
 
-## COMO USAR ESTE ARCHIVO
+---
 
-Este archivo tiene **DOS PARTES** muy diferentes:
+## Prompt A: Enum
 
-| Parte | Que es | Como debe verse |
-|-------|--------|-----------------|
-| **PARTE 1** | Tus 3 prompts reales | Lenguaje NATURAL, con errores, informal |
-| **PARTE 2** | Blueprint generado por IA | Perfecto, profesional, estructurado |
+**Contexto:** Estaba buscando palabras para poner en tipoGrupo y le pido a la IA que me de palabras.
+**Mi prompt exacto (copiado tal cual):**
+```
+ Estoy haciendo este gestionador de salas de eventos, que tipos de grupos podrian participar?? Tengo de momento los 3 del enum, me podrias dar mas ideas?
+```
 
-### REGLA IMPORTANTE
+**Que paso:** Me dió distintos tipo de grupos de musica, aunque usé la mayoría descarté un par pues se iban de la temática.
 
-> **Los prompts de la Parte 1 deben ser COPIA EXACTA de lo que escribiste.**
->
-> NO los pases por la IA para "mejorarlos". NO corrijas errores.
-> Si escribiste "como ago un controllr rest en spring" con errores,
-> eso es lo que debes pegar.
->
-> **El sistema detecta automaticamente si los prompts fueron "limpiados".**
-> Prompts perfectos en la Parte 1 = SOSPECHOSO.
+**Que aprendi:** Aprendí a poner palabras que realmente sean utiles y vayan con mi proyecto, haciendo una seleccion cuidadosa de que palabras poner y cuales descartar.
 
 ---
 
-# PARTE 1: Mis Prompts Reales (3 minimo)
+## Prompt B: API REST Spring Boot, manejo de excepciones
 
-> Copia y pega EXACTAMENTE lo que le escribiste a la IA.
-> Incluye errores, lenguaje informal, todo. Eso demuestra autenticidad.
-
----
-
-## Prompt A: Infraestructura Docker
-
-**Contexto:** [Que estabas intentando hacer?]
+**Contexto:** Estaba viendo que hacia las clases Global exception handler y Error response, no lo entendia del todo y le pedi a la IA que me lo explicase
 
 **Mi prompt exacto (copiado tal cual):**
 ```
-[PEGA AQUI tu prompt real, con errores y todo]
+Puedes explicarme el global exception handler, tanto que hace como para que sirve, el codigo tambien explicamelo y el error response tambien.
 ```
 
-**Que paso:** [ ] Funciono  [ ] Funciono parcial  [ ] No funciono
+**Que paso:** Funcionó y me dió una explicación detallada de todo lo que le pedí.
+
+**Que aprendi:** Aprendí para que se crean y para que se usan estas clases.
+
+---
+
+## Prompt C: Error a la hora de ejecutar
+
+**Contexto:** Estaba intentando arrancar la aplicación, pero me salta un error que no me deja.
+
+**Mi prompt exacto (copiado tal cual):**
+```
+(El usuario envía un log de error de compilación de Maven indicando `error: release version 21 not supported`).
+```
+
+**Que paso:** Me dió una lista de posibles soluciones que me podrían servir, al final usé la primera y ya pudo arrancar sin problema.
+
+**Que aprendi:** Aprendí a que debo de mirar y revisar configuraciones del proyecto para que asi funcione correctamente.
+
+---
+---
+## Prompt A: SQL
+
+**Contexto:** Estaba intentando crear un arcchivo data.sql y le pido que me cree sentencias SQL para poder asi tener datos.
+
+**Mi prompt exacto (copiado tal cual):**
+```
+Creame unas sentencias SQL para hacer el data.sql y cargar con datos la base de datos, lee todo el proyecto para que sean lo mas acertdas posibles.
+```
+
+**Que paso:** Funcionó perfectamente me dió queris que funcionaban y si cargaban los datos correctamente.
 
 **Que aprendi:** [1-2 oraciones con tus palabras]
 
 ---
-
-## Prompt B: API REST Spring Boot
-
-**Contexto:** [Que estabas intentando hacer?]
-
-**Mi prompt exacto (copiado tal cual):**
-```
-[PEGA AQUI tu prompt real]
-```
-
-**Que paso:** [ ] Funciono  [ ] Funciono parcial  [ ] No funciono
-
-**Que aprendi:** [1-2 oraciones]
-
----
-
-## Prompt C: Funcionalidad Avanzada
-
-**Contexto:** [Que estabas intentando hacer?]
-
-**Mi prompt exacto (copiado tal cual):**
-```
-[PEGA AQUI tu prompt real]
-```
-
-**Que paso:** [ ] Funciono  [ ] Funciono parcial  [ ] No funciono
-
-**Que aprendi:** [1-2 oraciones]
-
----
----
-
 # PARTE 2: Blueprint Final (generado por IA)
 
 > Esta parte la genera la IA AL FINAL de tu trabajo.
@@ -101,17 +86,17 @@ y tecnologias usadas.
 
 **Blueprint generado:**
 
-[PEGA AQUI el resultado de la IA]
+[BLUEPRINT SALA CONCIERTOS.md](../../../sala-conciertos/BLUEPRINT%20SALA%20CONCIERTOS.md)
 
 ---
 
 ## Resumen Final
 
-| Pregunta | Respuesta |
-|----------|-----------|
-| Total de prompts usados | [numero] |
-| Herramienta mas usada | [cual] |
-| Prompt mas util | [cual y por que] |
-| Prompt que NO funciono | [cual y que hicieron despues] |
-| Tiempo total estimado | [horas] |
-| Que harias diferente | [1-2 oraciones] |
+| Pregunta | Respuesta                                                                    |
+|----------|------------------------------------------------------------------------------|
+| Total de prompts usados | 4                                                                            |
+| Herramienta mas usada | GEMINI                                                                       |
+| Prompt mas util | CLASES GESTION DE EXCEPCIONES                                                |
+| Prompt que NO funciono | Enum con tipoGrupos, no usé todo y se le fue el contexto                     |
+| Tiempo total estimado | 1 hora                                                                       |
+| Que harias diferente | Cambiaría como hago los prompts porque puede ser que a veces me exprese mal  |

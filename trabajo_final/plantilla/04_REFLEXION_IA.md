@@ -1,42 +1,18 @@
-# Reflexion IA — 3 Momentos Clave‌‌‌​‌​‌‌​﻿‍‍‌‍‌‍​﻿​﻿​﻿​‍‌‍​‍​﻿​﻿‌‍​‍‌‍​‍​﻿‍‌​﻿‌‍​﻿​​​﻿​‍‌‍‌‍‌‍​‌​﻿‍‌‌‍​‌‌‍​‌
+º# Reflexion IA — 3 Momentos Clave‌‌‌​‌​‌‌​﻿‍‍‌‍‌‍​﻿​﻿​﻿​‍‌‍​‍​﻿​﻿‌‍​‍‌‍​‍​﻿‍‌​﻿‌‍​﻿​​​﻿​‍‌‍‌‍‌‍​‌​﻿‍‌‌‍​‌‌‍​‌
 
 Para CADA bloque (A, B, C), documentar 3 momentos.
 
 ---
 
-## Bloque A: Infraestructura Docker
+## Bloque A: Aplicacion
 
 ### Momento Arranque
-[Que fue lo primero que buscaron o le pidieron a la IA?]
+Al intentar arrancar la aplicacion.
 
 ### Momento Error
-[Que fallo? Como lo resolvieron?]
+Puse un comando y me daba un error, le pedí a la IA que me lo corrigiese y me indicase que fallaba
 
 ### Momento Aprendizaje
-[Que aprendieron que NO sabian antes?]
+Aprendí a como ver un error y saber analizar antes de ejecutar
 
----
 
-## Bloque B: API REST Spring Boot
-
-### Momento Arranque
-[...]
-
-### Momento Error
-[...]
-
-### Momento Aprendizaje
-[...]
-
----
-
-## Bloque C: Funcionalidad Avanzada
-
-### Momento Arranque
-[...]
-
-### Momento Error
-[...]
-
-### Momento Aprendizaje
-[...]
